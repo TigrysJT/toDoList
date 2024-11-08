@@ -1,0 +1,85 @@
+body{
+    margin-top: 20px;
+    background-color: salmon;
+
+}
+/* #test1{
+    border-radius: 5px;
+    text-indent: 5px;
+    align-items: center;
+    grid-column-start: 2;
+    height: fit-content;
+
+}*/
+#users_todos{
+    margin-top: 70px;
+    max-width: 100%;
+    margin-left: 50px;
+    border-left: 3px black solid;
+
+}
+.buttoners{
+    background-color: aqua;
+    width: 20px;
+    height: 15px;
+    border: 0;
+    border-radius: 20px;
+    margin: 2px;
+}
+#buttonDiving{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 10px;
+}
+#content{
+    display: grid;
+    grid-template-columns: 210px 1fr;
+}
+#list_of_todos{
+    grid-row-start: 2;
+    position: absolute;
+    top: 100px;
+}
+#users_todos > *{
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 1fr 1fr 8fr 1fr;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    padding-left: 5px;
+}
+#green{
+    background-color: lime;
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
+.sigmaLoner{
+    width: 20px;
+    height: 15px;
+    border: 0;
+    border-radius: 20px;
+    margin: 2px;
+    background-color: aqua;
+    position: relative;
+    left: 90%;
+}
+#checkPlease{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    margin: 2px;  
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+#page_header{
+    border-right: 1px black solid;
+    
+}
